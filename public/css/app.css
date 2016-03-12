@@ -2,6 +2,9 @@ body {
   padding-top: 50px;
   background-color: #f3f3f3;
 }
+h1 {
+  margin-bottom: 28px;
+}
 ul.photos {
   list-style: none;
 }
@@ -68,6 +71,22 @@ form legend {
   font-size: 11pt;
   color: #888;
   margin: 24px 0 0 0;
+}
+.detail .img_wrapper {
+  width: 100%;
+  padding: 0;
+  background-color: #000;
+}
+.detail img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.detail p.description {
+  background-color: #fff;
+  box-shadow: 0 2px 0 #ccc;
+  padding: 12px;
+  margin: 12px 0;
 }
 
 /*# sourceMappingURL=app.css.map */

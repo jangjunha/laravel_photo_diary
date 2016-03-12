@@ -3,8 +3,9 @@
 @section('container')
     <h1>{{ $photo->title }}</h1>
 
-    <img src="{{ $photo->image }}">
-
-    <p class="description">{{ $photo->description }}</p>
+    <div class="detail">
+        <div class="img_wrapper"><img src="{{ $photo->image }}"></div>
+        <p class="description">{{ $photo->description }}</p>
+    </div>
 
 @endsection
