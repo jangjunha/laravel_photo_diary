@@ -19,7 +19,7 @@ class PhotosController extends Controller
 
 
     public function list() {
-        $photos = Photo::all();
+        $photos = Photo::orderBy('created_at', 'desc')->get();
         return view('list', ['photos' => $photos]);
     }
 
